@@ -43,3 +43,40 @@ PowerShell desempenha um papel fundamental na eficiência operacional, na automa
 
   * `Get-Help` Fornece informações de ajuda sobre outros comandos.
 
+
+## Test-Path
+
+  * `Test-Path` Verifica se um caminho (arquivo ou diretório) existe.
+
+
+## Get-ExecutionPolicy
+
+  * `Get-ExecutionPolicy` Retorna a política de execução atual do sistema.
+
+
+## Get-Credential
+
+  * `Get-Credential` Solicita ao usuário credenciais (nome de usuário e senha) para uso em operações subsequentes.
+
+
+## Invoke-Command
+
+  * `Invoke-Command` Executa comandos em computadores remotos.
+
+
+## Enter-PSSession
+
+  * `Enter-PSSession`  Inicia uma sessão interativa remota com um computador.
+
+## Get-Member
+
+  * `Get-Member`  Exibe as propriedades e métodos disponíveis para um objeto.
+
+## Get-Process
+
+  * `Get-Process`  Lista os processos em execução no sistema.
+
+## Get-WindowsDriver
+
+  * `Get-WindowsDriver`  Exibe informações sobre os drivers instalados no sistema operacional Windows.
+
