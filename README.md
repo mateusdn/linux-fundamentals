@@ -9,37 +9,37 @@ PowerShell desempenha um papel fundamental na eficiência operacional, na automa
 
 ## ForEach-Object
 
-  * `ForEach-Object` Obtém o conteúdo de um arquivo.
+  * `ForEach-Object` Executa um bloco de script para cada objeto de entrada.
 
 ## Out-File
 
-  * `Out-File` Obtém o conteúdo de um arquivo.
+  * `Out-File` É utilizado para redirecionar a saída de um comando ou script para um arquivo específico.
 
 ## Test-NetConnection
 
-  * `Test-NetConnection` Obtém o conteúdo de um arquivo.
+  * `Test-NetConnection` É utilizado para testar a conectividade de rede para um host específico.
 
 ## ConvertTo-Json
 
-  * `ConvertTo-Json` Obtém o conteúdo de um arquivo.
+  * `ConvertTo-Json` Converte objetos em formato JSON.
 
 ## Get-Date
 
-  * `Get-Date` Obtém o conteúdo de um arquivo.
+  * `Get-Date` Retorna a data e hora atuais.
 
 ## Start-Sleep
 
-  * `Start-Sleep` Obtém o conteúdo de um arquivo.
+  * `Start-Sleep` Pausa a execução de um script ou comando pelo tempo especificado.
 
 ## Write-Host
 
-  * `Write-Host` Obtém o conteúdo de um arquivo.
+  * `Write-Host` Exibe texto ou variáveis no console.
 
 ## Get-Command
 
-  * `Get-Command` Obtém o conteúdo de um arquivo.
+  * `Get-Command` Lista todos os comandos disponíveis no ambiente.
 
 ## Get-Help
 
-  * `Get-Help` Obtém o conteúdo de um arquivo.
+  * `Get-Help` Fornece informações de ajuda sobre outros comandos.
 
