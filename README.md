@@ -7,44 +7,39 @@ PowerShell desempenha um papel fundamental na eficiência operacional, na automa
 
   * `Get-Content` Obtém o conteúdo de um arquivo.
 
-## Get-Content
+## ForEach-Object
 
   * `Get-Content` Obtém o conteúdo de um arquivo.
 
-## Get-Content
+## Out-File
 
   * `Get-Content` Obtém o conteúdo de um arquivo.
 
-## Get-Content
+## Test-NetConnection
 
   * `Get-Content` Obtém o conteúdo de um arquivo.
 
-## Get-Content
+## ConvertTo-Json
 
   * `Get-Content` Obtém o conteúdo de um arquivo.
 
-## Get-Content
+## Get-Date
 
   * `Get-Content` Obtém o conteúdo de um arquivo.
 
-## Get-Content
+## Start-Sleep
 
   * `Get-Content` Obtém o conteúdo de um arquivo.
 
-## Get-Content
+## Write-Host
 
   * `Get-Content` Obtém o conteúdo de um arquivo.
 
-## Get-Content
+## Get-Command
 
   * `Get-Content` Obtém o conteúdo de um arquivo.
 
-## Get-Content
+## Get-Help
 
   * `Get-Content` Obtém o conteúdo de um arquivo.
-
-## Get-Content
-
-  * `Get-Content` Obtém o conteúdo de um arquivo.
-
 
