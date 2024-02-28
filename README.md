@@ -80,3 +80,12 @@ PowerShell desempenha um papel fundamental na eficiência operacional, na automa
 
   * `Get-WindowsDriver`  Exibe informações sobre os drivers instalados no sistema operacional Windows.
 
+## Export-WindowsDriver
+
+  * `Export-WindowsDriver`  Exporta os drivers do Windows para um diretório específico.
+
+## Start-MpScan
+
+  * `Start-MpScan` É usado para iniciar uma verificação de antivírus no Windows Defender (Microsoft Defender Antivirus). Ele aciona uma verificação manual no sistema em busca de malware e ameaças de segurança.
+
+
