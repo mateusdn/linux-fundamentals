@@ -81,8 +81,6 @@
 * Filtra objetos de uma coleção com base em uma condição.
   * A estrutura para o cmdlet Where-Object é:
   * `{_.Campo Operador Valor}` 
-
-
 *   | Operador | Descrição |
     | --- | --- |
     | `-lt` | Menor que.  |
@@ -94,11 +92,23 @@
     | `-like` | Usa wildcards para comparar padrões. |
 
 
+## Módulos
 
+* Módulos são pacotes de funcionalidades reutilizáveis que podem ser carregados dinamicamente para adicionar cmdlets, funções, variáveis, e outros recursos ao ambiente de execução do PowerShell. Eles ajudam na modularização e na organização do código, permitindo a distribuição e o compartilhamento de funcionalidades específicas. Os módulos facilitam a extensão das capacidades do PowerShell e promovem a reusabilidade do código.
 
+# Scripts no PowerShell
 
+## Variáveis
 
+* As variáveis são utilizadas para armazenar e manipular dados durante a execução de scripts ou comandos. Elas são contêineres nomeados que mantêm valores ou referências a objetos. As variáveis são fundamentais para armazenar informações temporárias, resultados de cálculos, strings, arrays e outros tipos de dados.
+* Exemplo: `$nomeDaVariavel = "Valor"`
 
+## Arrays
+
+* Arrays são estruturas de dados que permitem armazenar e organizar coleções de valores. Um array é uma sequência ordenada de elementos, e cada elemento pode ser acessado individualmente por meio de um índice.
+* Exemplo: `$meuArray = @(1, 2, 3, 4, 5) ou $outroArray = 1, 2, 3, 4, 5`
+
+# HashTables
 
 
 
