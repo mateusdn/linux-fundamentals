@@ -217,10 +217,20 @@
 
 ## Jobs
 
+* Permitem a execução de comandos em Background no computador local ou remoto.
 
+* Exemplos:
+  * `Start-Job` - Inicia um trabalho.
+  * `Get-Job` - Exibe os trabalhos associados a sessão atual.
+  * `Wait-Job` - Aguarda pelo trabalho até que esteja pronto.
+  * `Receive-Job` - Exibe o resultado de um trabalho em background.
+  * `Stop-Job` - Para um trabalho.
+  * `Remove-Job` - Remove um trabalho.
 
 ## Scheduled Jobs
 
+* Trabalhos agendados são extremamente úteis quando você tem tarefas que são executadas com maior frequência ou com recorrência e principalmente quando sao atividade de longa duração
+  * `Get-Command -Module PSScheduledJob | Sort-Object Noun`
 
 
 
