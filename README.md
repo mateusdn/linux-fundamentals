@@ -29,7 +29,7 @@
   * [Jobs](#Jobs)
   * [Scheduled Jobs](#Scheduled-Jobs)
   * [New-Object (WScript.Shell)](#New-Object)
-
+* [Comandos Úteis](#Comandos-Úteis)
 
 ## Introdução
 
@@ -255,25 +255,7 @@
 * A expressão New-Object (WScript.Shell) no PowerShell é utilizada para criar uma nova instância do objeto WScript.Shell. Esse objeto pertence à biblioteca de automação Windows Script Host (WSH), que é um conjunto de tecnologias de automação da Microsoft para scripts em sistemas Windows. O objeto WScript.Shell fornece métodos para interagir com o ambiente do sistema operacional, como executar programas, acessar o registro do Windows e manipular atalhos.
   * Exemplo: `$wshell.Popup("teste")`
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Comandos Úteis
 
 ## Get-Content
 
