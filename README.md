@@ -1,5 +1,9 @@
 # PowerShell
-<a name="eu" href="https://github.com/mateusdn"><img src="imagens/eu.jpg" /></a>
+<p align="center">
+  <img width="460" height="300" src="imagens/eu.jpg">
+</p>
+
+`Bem-vindo ao meu tutorial de PowerShell. Se você é um administrador de sistemas, profissional de TI ou só quer uma cola mesmo, este guia vai te ajudar com uma introdução abrangente ao PowerShell. Desde os conceitos fundamentais, como variáveis, loops e funções, até tarefas avançadas de automação e script, este tutorial fornecerá os alicerces necessários para dominar essa poderosa linguagem de script. :)`
 
 
 
