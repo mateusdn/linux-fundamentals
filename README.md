@@ -13,11 +13,6 @@
 * [Introdução](#Introdução)
 
 
-
-
-
-
-
 ## Introdução
 
 * O PowerShell é uma linguagem de script e ambiente de shell para automação e gerenciamento de sistemas operacionais Windows. Com uma ampla gama de cmdlets, permite a manipulação eficaz de dados e é essencial para administradores de sistemas e profissionais de TI, sendo utilizado para automação, configuração de servidores, criação de scripts personalizados e diversas outras tarefas relacionadas à administração de sistemas Windows.
@@ -120,19 +115,19 @@
 
 *   | Operador | Descrição | Exemplo | Significado e Saída | 
     | --- | --- | --- | --- |
-    | `-lt` | Menor que.  | asd | asd |
-    | `-le` | Menor ou Igual. | asd | asd |
-    | `-gt` | Maior que. | asd | asd |
-    | `-ge` | Maior ou Igual. | asd | asd |
-    | `-eq` | Igual. | asd | asd |
-    | `-ne` | Não Igual. | asd | asd |
-    | `-like` | Usa wildcards para comparar padrões. | asd | asd |
-    | `-lt` | Menor que.  | asd | asd | asd | asd |
-    | `-le` | Menor ou Igual. | asd | asd |
-    | `-gt` | Maior que. | asd | asd |
-    | `-ge` | Maior ou Igual. | asd | asd |
-    | `-eq` | Igual. | asd | asd |
-    | `-ne` | Não Igual. | asd | asd |
+    | `-lt` | Menor que.  | $a -lt $b| A é menor que B? Booleano |
+    | `-le` | Menor ou Igual. | $a le $b | A for menor ou igual a B? Booleano |
+    | `-gt` | Maior que. | $a -gt $b | A é maior que B? Booleano |
+    | `-ge` | Maior ou Igual. | $a -ge $b | A é maior ou igual a B? Booleano |
+    | `-eq` | Igual. | $a -eq $b | A é igual a B? Booleano |
+    | `-ne` | Não Igual. | $a -ne $b | A não é igual a B? Booleano |
+    | `-like` | Como. | $a -like $b | A inclui um valor como B? Booleano|
+    | `-notlike` | Não Como.  | $a -notlike $b | A não inclui um valor como B? Booleano |
+    | `-contains` | Contém. | $a -cotains $b | A está contido em B? Booleano |
+    | `-notcontains` | Não Contém. | $a -notcontains $b | A não está contido em B? Booleano |
+    | `-match` | Coincide. | $a -match $b | A conincide com B? Booleano |
+    | `-notmatch` | Não Coincide. | $a -notmatch $b | A não coincide com B? Booleano |
+    | `-replace` | Substitui. | $a -replace ,$b,c$ | Se A possui strings de B substitua por C |
 
 
 
