@@ -28,7 +28,7 @@
   * [Workflows](#Workflows)
   * [Jobs](#Jobs)
   * [Scheduled Jobs](#Scheduled-Jobs)
-  * [New-Object (WScript.Shell)](#New-Object-(WScript.Shell))
+  * [New-Object (WScript.Shell)](#New-Object)
 
 
 ## Introdução
