@@ -68,10 +68,10 @@
 
 *   | Operador | Descrição |
     | --- | --- |
-    | `Out-Default` | Envie a saída para o formatador padrão  |
-    | `Out-File` | Redireciona a saída para o arquivo especificado. Se o arquivo já existe, o conteúdo atual será substituído. |
-    | `Out-GridView` | Redireciona a saída para o arquivo especificado. Se o arquivo já existe, o novo conteúdo será anexado ao conteúdo atual. |
-    | `Out-Host` | Redireciona a saída de erro para o arquivo especificado. Se o arquivo já existe, o conteúdo atual será substituído. |
+    | `Out-Default` | Envie a saída para o formatador padrão e o cmdlet de saída padrão.  |
+    | `Out-File` | Envie a saída para um arquivo. |
+    | `Out-GridView` | Envie a saída para uma tabela interativa em uma janela separada. |
+    | `Out-Host` | Envie a saída para a linha de comando. |
     | `Out-Null` | Redireciona a saída de erro para o arquivo especificado. Se o arquivo já existe, o novo conteúdo será anexado ao conteúdo atual. |
     | `Out-Printer` | Redireciona a saída de erro para a saída padrão. |
     | `Out-String` | Redireciona a saída de erro para a saída padrão. |
