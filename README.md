@@ -133,12 +133,23 @@
 
 *   | Operador | Descrição | Exemplo | Significado e Saída | 
     | --- | --- | --- | --- |
-    | `+` | Adição. | 2 + 2| Retorna a soma. |
+    | `+` | Adição. | 2 + 2 | Retorna a soma. |
     | `/` | Divisão. | 4 / 2 | Retorna o quociente. |
     | `%` | Módulo. | 5 % 2 | Retorna o resto da divisão. |
     | `*` | Multiplicação. | 7 * 8 | Retorna o produto. |
     | `-` | Subtração. | 7 - 5 | Retorna a subtração. |
     | `-` | Negação. | -7 | Transforma o valor em negativo. |
+
+
+
+  *   | Operador | Descrição | Exemplo | Significado e Saída | 
+      | --- | --- | --- | --- |
+      | `and` | Operador lógico AND. | $a -and $b | Verdade (1) se ambas as variáveis de entrada forem verdade. |
+      | `or` | Operador lógico OR. | $a -or $b | Verdade (1) se e somente se pelo menos uma das variáveis de entrada for verdade. |
+      | `not` | Operador lógico NOT. | $a -not $b | Negação (Inverso) da variável atua. |
+      | `xor` | Operador lógico XOR. | $a -xor $b | Verdade (1) quando as variáveis assumirem valores diferentes entre si. |
+
+## Operadores de Atribuição
 
 
 ## Get-Content
