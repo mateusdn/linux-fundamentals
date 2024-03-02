@@ -7,7 +7,10 @@
 * [Introdução](#Introdução)
 * [PowerShell CLI](#PowerShell-CLI)
 * [PowerShell ISE](#PowerShell-ISE)
-* 
+* [Command-Lets](#Command-Lets)
+* [Functions](#Functions)
+* [Alias](#Alias)
+* [Introdução](#Introdução)
 
 
 
@@ -36,22 +39,30 @@
 * Mais adequado para usuários que necessitam de uma experiência de desenvolvimento mais robusta e amigável.
 
 
+## Command-Lets
 
+* São pequenos blocos de construção de comandos no PowerShell. Eles são cmdlets nativos, scripts ou funções escritos em PowerShell. Cada cmdlet é projetado para realizar uma tarefa específica e pode ser encadeado ou combinado com outros cmdlets para realizar operações mais complexas. Cmdlets têm nomes verbais que descrevem a ação que realizam (por exemplo, Get-Process, Stop-Service, New-Item). Eles são fundamentais para a funcionalidade e flexibilidade do PowerShell, permitindo automação e administração eficientes do sistema operacional e outros produtos Microsoft.
 
+## Functions
 
+* As funções são blocos de código reutilizáveis que podem ser definidos para realizar tarefas específicas. Elas ajudam a modularizar o código, promovendo a reutilização e a organização. Ao criar uma função, você encapsula um conjunto de comandos em um único bloco nomeado, permitindo que esses comandos sejam chamados e executados sempre que necessário. Aqui estão alguns conceitos-chave sobre funções no PowerShell:
 
+## Alias
 
+* Alias é um apelido ou atalho para um cmdlet, função, script ou comando. Os aliases são usados para fornecer formas mais curtas e convenientes de chamar comandos frequentemente utilizados, facilitando a digitação e a execução rápida de tarefas.
 
+## Redirecionadores
 
-
-
-
-
-
-
-
-
-
+* Redirecionadores são operadores que controlam o fluxo de entrada e saída de dados durante a execução de comandos. Eles permitem que você direcione a saída de um comando para um arquivo, um dispositivo ou até mesmo para outro comando:
+  
+*   | Operador | Descrição |
+    | --- | --- |
+    | `pipeline` | Passa a saída para o comando subsequente para processamento. |
+    | `>` | Redireciona a saída para o arquivo especificado. Se o arquivo já existe, o conteúdo atual será substituído. |
+    | `>>` | Redireciona a saída para o arquivo especificado. Se o arquivo já existe, o novo conteúdo será anexado ao conteúdo atual. |
+    | `2>` | Redireciona a saída de erro para o arquivo especificado. Se o arquivo já existe, o conteúdo atual será substituído. |
+    | `2>>` | Redireciona a saída de erro para o arquivo especificado. Se o arquivo já existe, o novo conteúdo será anexado ao conteúdo atual. |
+    | `2>&1` | Redireciona a saída de erro para a saída padrão. |
 
 
 
