@@ -115,7 +115,7 @@
 
 *   | Operador | Descrição | Exemplo | Significado e Saída | 
     | --- | --- | --- | --- |
-    | `-lt` | Menor que.  | $a -lt $b| A é menor que B? Booleano |
+    | `-lt` | Menor que.  | $a -lt $b | A é menor que B? Booleano |
     | `-le` | Menor ou Igual. | $a le $b | A for menor ou igual a B? Booleano |
     | `-gt` | Maior que. | $a -gt $b | A é maior que B? Booleano |
     | `-ge` | Maior ou Igual. | $a -ge $b | A é maior ou igual a B? Booleano |
@@ -150,6 +150,17 @@
       | `xor` | Operador lógico XOR. | $a -xor $b | Verdade (1) quando as variáveis assumirem valores diferentes entre si. |
 
 ## Operadores de Atribuição
+
+*   | Operador | Descrição | Exemplo | Significado e Saída | 
+    | --- | --- | --- | --- |
+    | `=` | Atribui/Define/Compara valor  | $a = 2 | $a = 2|
+    | `+=` | Adiciona um valor | $a += $b | $a = $a + $b |
+    | `-=` | Subtrai um determinado valor | $a -= $b | $a = $a - $b |
+    | `*=` | Multiplica | $a *= $b | $a = $a * $b |
+    | `/=` | Divide o valor | $a /= $b | $a = $a / $b|
+    | `%=` | Resultado da operação Modulo | $a %= $b | $a = $a % $b|
+    | `++` | Incrementa em mais 1 | $a++ | $a = $a + 1 |
+    | `--` | Decresce em menos 1 | $a-- | $a = $a - 1 |
 
 
 ## Get-Content
