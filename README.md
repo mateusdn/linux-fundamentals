@@ -231,6 +231,12 @@
 
 * Trabalhos agendados são extremamente úteis quando você tem tarefas que são executadas com maior frequência ou com recorrência e principalmente quando sao atividade de longa duração
   * `Get-Command -Module PSScheduledJob | Sort-Object Noun`
+ 
+## New-Object (WScript.Shell)
+
+* A expressão New-Object (WScript.Shell) no PowerShell é utilizada para criar uma nova instância do objeto WScript.Shell. Esse objeto pertence à biblioteca de automação Windows Script Host (WSH), que é um conjunto de tecnologias de automação da Microsoft para scripts em sistemas Windows. O objeto WScript.Shell fornece métodos para interagir com o ambiente do sistema operacional, como executar programas, acessar o registro do Windows e manipular atalhos.
+  * Exemplo: `$wshell.Popup("teste")`
+  
 
 
 
