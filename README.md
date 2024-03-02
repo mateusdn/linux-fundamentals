@@ -76,7 +76,22 @@
     | `Out-Printer` | Envie a saída para uma impressora |
     | `Out-String` | Envie a saída para uma série de strings. |
 
+## Where-Object
 
+* Filtra objetos de uma coleção com base em uma condição.
+  * A estrutura para o cmdlet Where-Object é:
+  * `{_.Campo Operador Valor}` 
+
+
+*   | Operador | Descrição |
+    | --- | --- |
+    | `-lt` | Menor que.  |
+    | `-le` | Menor ou Igual. |
+    | `-gt` | Maior que. |
+    | `-ge` | Maior ou Igual. |
+    | `-eq` | Igual. |
+    | `-ne` | Não Igual. |
+    | `-like` | Usa wildcards para comparar padrões. |
 
 
 
