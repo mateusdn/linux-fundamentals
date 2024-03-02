@@ -108,12 +108,31 @@
 * Arrays são estruturas de dados que permitem armazenar e organizar coleções de valores. Um array é uma sequência ordenada de elementos, e cada elemento pode ser acessado individualmente por meio de um índice.
 * Exemplo: `$meuArray = @(1, 2, 3, 4, 5) ou $outroArray = 1, 2, 3, 4, 5`
 
-# HashTables
+## HashTables
 
+* São estruturas de dados que permitem associar pares de chave-valor. Elas são usadas para armazenar informações de maneira eficiente e proporcionam um método rápido de pesquisa e recuperação de dados com base em uma chave única.
+* Exemplo: `$minhaHashtable = @{
+    Nome = "João"
+    Idade = 25
+    Cidade = "Exemplo"}`
 
+## Operadores de Comparação
 
-
-
+*   | Operador | Descrição | Exemplo | Significado e Saída | 
+    | --- | --- | --- | --- |
+    | `-lt` | Menor que.  | asd | asd |
+    | `-le` | Menor ou Igual. | asd | asd |
+    | `-gt` | Maior que. | asd | asd |
+    | `-ge` | Maior ou Igual. | asd | asd |
+    | `-eq` | Igual. | asd | asd |
+    | `-ne` | Não Igual. | asd | asd |
+    | `-like` | Usa wildcards para comparar padrões. | asd | asd |
+    | `-lt` | Menor que.  | asd | asd | asd | asd |
+    | `-le` | Menor ou Igual. | asd | asd |
+    | `-gt` | Maior que. | asd | asd |
+    | `-ge` | Maior ou Igual. | asd | asd |
+    | `-eq` | Igual. | asd | asd |
+    | `-ne` | Não Igual. | asd | asd |
 
 
 
