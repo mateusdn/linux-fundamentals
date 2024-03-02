@@ -162,6 +162,84 @@
     | `++` | Incrementa em mais 1 | $a++ | $a = $a + 1 |
     | `--` | Decresce em menos 1 | $a-- | $a = $a - 1 |
 
+## Select-String
+
+* É usado para pesquisar cadeias de caracteres (strings) em arquivos de texto ou dados de entrada. Ele permite que você procure padrões de texto em arquivos ou em uma saída de comando, podendo também fornecer informações sobre as correspondências encontradas.
+* Exemplo: `Select-String -Path <caminho_do_arquivo> -Pattern <padrão>`
+
+## Expressões Regulares - Regex
+
+* São padrões de texto utilizados para realizar correspondências complexas e manipulações de strings. No PowerShell, as expressões regulares são amplamente utilizadas para realizar buscas, extração de informações e substituição de texto em strings.
+  * \d - numérico [0-9]
+  * \w - alpha numérico [a-zA-Z0-9_]
+  * \s - caractere de espaço em branco
+  * . - Qualquer caractere exceto nova linha
+  * () - Sub-expression
+  * \ - Próximo caractere
+
+## If.. Else.
+
+* São estruturas de controle de fluxo que permitem a execução condicional de comandos ou blocos de código. A estrutura básica do if e else no PowerShell é semelhante a muitas outras linguagens de programação.
+* Exemplo: `if (condição) {
+     Bloco de código a ser executado se a condição for verdadeira
+} else {
+     Bloco de código a ser executado se a condição não for verdadeira
+}`
+
+## Loops
+
+* São estruturas de controle de fluxo que permitem executar um bloco de código repetidamente enquanto uma condição específica for verdadeira.
+* Exemplos:
+  * For
+  * ForEach
+  * While 
+
+## Criando Funções
+
+* Criar funções é uma maneira eficaz de modularizar o código, facilitando a reutilização e a organização de tarefas específicas.
+* Exemplo: `function Nome-Da-Funcao {
+     Bloco de código da função
+     Pode incluir parâmetros, lógica de execução, etc.
+}
+`
+
+## Workflows
+
+* É uma construção que permite a execução de script ou comandos em um ambiente distribuído e paralelo. Workflow é utilizado para automação de tarefas que precisam ser executadas em várias máquinas ou em paralelo em uma única máquina. Ele é particularmente útil para processos longos ou tarefas que podem ser divididas e executadas simultaneamente.
+
+* Características principais:
+  * Parallel Execution (Execução Paralela): As atividades dentro de um workflow podem ser executadas em paralelo, aproveitando o poder do processamento paralelo.
+  * Persistência e Retomada: Os workflows podem ser interrompidos e retomados a partir do ponto em que foram interrompidos, mesmo após uma reinicialização do sistema ou falha.
+  * Stateful Operations (Operações com Estado): Os workflows podem manter o estado durante a execução, permitindo que as variáveis e valores persistam entre diferentes execuções.
+  * Remoting Automático: Os workflows podem ser executados automaticamente remotamente em máquinas diferentes.
+  * Suporte a Transações: Os workflows suportam transações, o que significa que você pode executar operações atômicas dentro deles.
+  * Sintaxe Específica: A definição de workflows usa uma sintaxe específica, como workflow e foreach -parallel, para indicar as partes que podem ser executadas simultaneamente.
+
+## Jobs
+
+
+
+## Scheduled Jobs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Get-Content
 
