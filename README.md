@@ -260,7 +260,59 @@
 
 * A expressão New-Object (WScript.Shell) no PowerShell é utilizada para criar uma nova instância do objeto WScript.Shell. Esse objeto pertence à biblioteca de automação Windows Script Host (WSH), que é um conjunto de tecnologias de automação da Microsoft para scripts em sistemas Windows. O objeto WScript.Shell fornece métodos para interagir com o ambiente do sistema operacional, como executar programas, acessar o registro do Windows e manipular atalhos.
   * Exemplo: `$wshell.Popup("teste")`
+
   
+# Gerenciamento Remoto
+
+* O PowerShell oferece recursos poderosos para o gerenciamento remoto de sistemas, permitindo que administradores controlem máquinas remotas, executem comandos e automatizem tarefas sem a necessidade de interação física com os dispositivos. O gerenciamento remoto no PowerShell é facilitado por meio do recurso conhecido como "Remoting".
+
+   * Para permitir o PowerShell Remoting em uma máquina, o comando Enable-PSRemoting pode ser utilizado. Este comando configura o serviço de WinRM (Windows Remote Management) para aceitar comandos remotos.
+   * Pode-se definir restrições de segurança e configurar credenciais para controlar quem tem permissão para executar comandos remotamente.
+   * Utilizando o comando Enter-PSSession, você pode se conectar a um computador remoto e interagir com o PowerShell como se estivesse localmente.
+ 
+   * O cmdlet Invoke-Command permite a execução de comandos em máquinas remotas.
+   * `Invoke-Command -ComputerName NomeDaMaquina -ScriptBlock { Comando-Remoto }`
+   * As sessões PSSession permitem a execução de vários comandos em uma sessão remota persistente.
+   * `$session = New-PSSession -ComputerName NomeDaMaquina Invoke-Command -Session $session -ScriptBlock { Comando-Remoto }`
+
+ ## Active Directory
+
+ * O PowerShell oferece um conjunto de módulos específicos para gerenciamento de AD que facilitam a automação de tarefas relacionadas a usuários, grupos, computadores, políticas de grupo e outros objetos no Active Directory.
+ * Antes de começar, é necessário importar o módulo do Active Directory para o PowerShell. Você pode fazer isso usando o comando:
+    * `Import-Module ActiveDirectory`
+
+## Exemplos de Gerenciamento no Active Directory
+
+* Criar um Novo Usuário:
+  * `New-ADUser -SamAccountName NovoUsuario -Name "Novo Usuário" -GivenName Novo -Surname Usuario -UserPrincipalName novo.usuario@dominio.com -Enabled $true -PasswordNeverExpires $true`
+
+* Criar um Novo Grupo:
+  * `New-ADGroup -Name NovoGrupo -GroupScope Global -GroupCategory Security -Description "Novo Grupo de Segurança"`
+
+* Adicionar Usuário a um Grupo:
+  * `Add-ADGroupMember -Identity NomeDoGrupo -Members NomeDoUsuario`
+
+* Listar Todos os Usuários em um Grupo:
+  * `Get-ADGroupMember -Identity NomeDoGrupo`
+
+* Obter Informações sobre um Usuário:
+  * `Get-ADUser -Identity NomeDoUsuario`
+
+* Modificar Atributos de um Usuário:
+  * `Set-ADUser -Identity NomeDoUsuario -Description "Nova Descrição"`
+
+* Remover um Usuário:
+  * `Remove-ADUser -Identity NomeDoUsuario -Confirm:$false`
+
+* Buscar Usuários com Base em um Atributo:
+  * `Get-ADUser -Filter {Surname -eq "Sobrenome"}`
+
+## PowerShell WebAccess
+
+* O PowerShell Web Access é uma funcionalidade do PowerShell que permite aos usuários acessarem o PowerShell por meio de um navegador da web. Ele oferece uma interface web para a execução de comandos PowerShell e scripts remotamente. Isso pode ser útil em cenários em que você precisa gerenciar servidores ou dispositivos remotamente, mas não tem acesso direto à máquina.
+
+
+
 # Comandos Úteis
 
 <a name="eu" href="https://github.com/mateusdn"><img src="imagens/sim.jpg" /></a>
