@@ -4,8 +4,10 @@
 
 
 ## PowerShell - Tópicos
-* [Introdução](#teste)
-* asd
+* [Introdução](#Introdução)
+* [PowerShell CLI](#PowerShell-CLI)
+* [PowerShell ISE](#PowerShell-ISE)
+* 
 
 
 
@@ -13,9 +15,25 @@
 
 
 
-#teste
+## Introdução
+
+* O PowerShell é uma linguagem de script e ambiente de shell para automação e gerenciamento de sistemas operacionais Windows. Com uma ampla gama de cmdlets, permite a manipulação eficaz de dados e é essencial para administradores de sistemas e profissionais de TI, sendo utilizado para automação, configuração de servidores, criação de scripts personalizados e diversas outras tarefas relacionadas à administração de sistemas Windows.
+
+* Ele oferece duas interfaces distintas para os usuários: o PowerShell CLI (Command-Line Interface) e o PowerShell ISE (Integrated Scripting Environment).
+
+## PowerShell CLI
+* Interface de linha de comando para a execução direta de comandos e scripts.
+* Adequado para tarefas rápidas e simples.
+* Não possui recursos avançados de edição ou depuração interativa.
+* É eficiente para usuários familiarizados com ambientes de linha de comando.
 
 
+## PowerShell ISE
+* Ambiente integrado de desenvolvimento para criação e edição de scripts.
+* Oferece recursos avançados, como destaque de sintaxe, depuração interativa e autocompletar.
+* Facilita o desenvolvimento e a manutenção de scripts mais complexos.
+* Permite dividir a tela para facilitar a visualização e edição simultânea de scripts.
+* Mais adequado para usuários que necessitam de uma experiência de desenvolvimento mais robusta e amigável.
 
 
 
