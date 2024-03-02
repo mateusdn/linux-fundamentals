@@ -1,10 +1,11 @@
 # PowerShell
-<a name="under-construction" href="https://github.com/mateusdn"><img src="uc.png" /></a>
+<a name="eu" href="https://github.com/mateusdn"><img src="imagens/eu.jpg" /></a>
 
 
 
 ## PowerShell - Tópicos
 * [Introdução](#Introdução)
+
   * [PowerShell CLI](#PowerShell-CLI)
   * [PowerShell ISE](#PowerShell-ISE)
   * [Command-Lets](#Command-Lets)
@@ -15,6 +16,7 @@
   * [Where-Object](#Where-Object)
   * [Módulos](#Módulos)
 * [Scripts no PowerShell](#Scripts-no-PowerShell)
+  
   * [Variáveis](#Variáveis)
   * [Arrays](#Arrays)
   * [Operadores de Comparação](#Operadores-de-Comparação)
@@ -256,6 +258,8 @@
   * Exemplo: `$wshell.Popup("teste")`
   
 # Comandos Úteis
+
+<a name="eu" href="https://github.com/mateusdn"><img src="imagens/sim.jpg" /></a>
 
 ## Get-Content
 
