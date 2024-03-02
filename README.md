@@ -64,6 +64,18 @@
     | `2>>` | Redireciona a saída de erro para o arquivo especificado. Se o arquivo já existe, o novo conteúdo será anexado ao conteúdo atual. |
     | `2>&1` | Redireciona a saída de erro para a saída padrão. |
 
+* ## Saídas
+
+*   | Operador | Descrição |
+    | --- | --- |
+    | `Out-Default` | Envie a saída para o formatador padrão  |
+    | `Out-File` | Redireciona a saída para o arquivo especificado. Se o arquivo já existe, o conteúdo atual será substituído. |
+    | `Out-GridView` | Redireciona a saída para o arquivo especificado. Se o arquivo já existe, o novo conteúdo será anexado ao conteúdo atual. |
+    | `Out-Host` | Redireciona a saída de erro para o arquivo especificado. Se o arquivo já existe, o conteúdo atual será substituído. |
+    | `Out-Null` | Redireciona a saída de erro para o arquivo especificado. Se o arquivo já existe, o novo conteúdo será anexado ao conteúdo atual. |
+    | `Out-Printer` | Redireciona a saída de erro para a saída padrão. |
+    | `Out-String` | Redireciona a saída de erro para a saída padrão. |
+
 
 
 
