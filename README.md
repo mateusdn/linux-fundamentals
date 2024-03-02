@@ -64,7 +64,7 @@
     | `2>>` | Redireciona a saída de erro para o arquivo especificado. Se o arquivo já existe, o novo conteúdo será anexado ao conteúdo atual. |
     | `2>&1` | Redireciona a saída de erro para a saída padrão. |
 
-* ## Saídas
+##  Saídas
 
 *   | Operador | Descrição |
     | --- | --- |
@@ -72,9 +72,9 @@
     | `Out-File` | Envie a saída para um arquivo. |
     | `Out-GridView` | Envie a saída para uma tabela interativa em uma janela separada. |
     | `Out-Host` | Envie a saída para a linha de comando. |
-    | `Out-Null` | Redireciona a saída de erro para o arquivo especificado. Se o arquivo já existe, o novo conteúdo será anexado ao conteúdo atual. |
-    | `Out-Printer` | Redireciona a saída de erro para a saída padrão. |
-    | `Out-String` | Redireciona a saída de erro para a saída padrão. |
+    | `Out-Null` | Apaga saída, em vez de enviá-lo para o console. |
+    | `Out-Printer` | Envie a saída para uma impressora |
+    | `Out-String` | Envie a saída para uma série de strings. |
 
 
 
