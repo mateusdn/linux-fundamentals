@@ -129,7 +129,16 @@
     | `-notmatch` | Não Coincide. | $a -notmatch $b | A não coincide com B? Booleano |
     | `-replace` | Substitui. | $a -replace ,$b,c$ | Se A possui strings de B substitua por C |
 
+## Operadores Aritméticos e Lógicos
 
+*   | Operador | Descrição | Exemplo | Significado e Saída | 
+    | --- | --- | --- | --- |
+    | `+` | Adição. | 2 + 2| Retorna a soma. |
+    | `/` | Divisão. | 4 / 2 | Retorna o quociente. |
+    | `%` | Módulo. | 5 % 2 | Retorna o resto da divisão. |
+    | `*` | Multiplicação. | 7 * 8 | Retorna o produto. |
+    | `-` | Subtração. | 7 - 5 | Retorna a subtração. |
+    | `-` | Negação. | -7 | Transforma o valor em negativo. |
 
 
 ## Get-Content
